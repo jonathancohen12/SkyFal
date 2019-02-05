@@ -9,15 +9,23 @@ namespace SkyFall_Gaming.Controllers
     public class ApplicationController : Controller
     {
     
-            public ActionResult Caster()
-            {
-
-             
-
-                return View();
-            }
-
-
-
+        public ActionResult Caster()
+        {
+            
+            return View();
         }
+        public ActionResult Staff()
+        {
+
+            return View();
+        }
+        public ActionResult Recruiter()
+        {
+
+            return View();
+        }
+
+
+
     }
+}
