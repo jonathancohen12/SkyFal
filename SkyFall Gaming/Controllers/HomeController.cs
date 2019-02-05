@@ -26,5 +26,17 @@ namespace SkyFall_Gaming.Controllers
 
             return View();
         }
-    }
+        public ActionResult Teams()
+        {
+            ViewBag.Message = "Come meet the Leagues Team Members";
+
+            return View();
+        }
+        public ActionResult TheTeam()
+        {
+            ViewBag.Message = "Come meet the team";
+
+            return View();
+        }
+          }
 }

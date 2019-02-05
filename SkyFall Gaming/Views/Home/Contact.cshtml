@@ -4,6 +4,25 @@
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
+
+
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Staff Application!
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <button class="dropdown-item" type="button"> 
+        @Html.ActionLink("Caster", "Caster", "Application")</button>
+        <button class="dropdown-item" type="button">
+            @Html.ActionLink("Home", "Index", "Home")</button>
+        <button class="dropdown-item" type="button">
+        @Html.ActionLink("Home", "Index", "Home")</button>
+    </div>
+</div>
+@Html.ActionLink("Home", "Index", "Home")
+<li>@Html.ActionLink("Promotion", "Promotion", "Home")</li>
+<li>@Html.ActionLink("The Team", "TheTeam", "Home")</li>
+
 <address>
     One Microsoft Way<br />
     Redmond, WA 98052-6399<br />
