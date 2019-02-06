@@ -24,8 +24,24 @@ namespace SkyFall_Gaming.Controllers
 
             return View();
         }
+        [Authorize(Roles = "Manager")]
+        public ActionResult StaffReponse()
+        {
 
+            return View();
+        }
+        [Authorize(Roles = "Manager")]
+        public ActionResult CasterReponse()
+        {
 
+            return View();
+        }
+        [Authorize(Roles = "Manager")]
+        public ActionResult RecruiterReponse()
+        {
+
+            return View();
+        }
 
     }
 }
